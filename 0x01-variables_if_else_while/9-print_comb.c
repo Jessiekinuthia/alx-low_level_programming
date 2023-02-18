@@ -11,8 +11,11 @@ int main(void)
 	while (numb <= 57)
 	{
 		putchar(numb);
+		if (numb != 57)
+		{
 		putchar(',');
 		putchar(' ');
+		}
 		numb++;
 	}
 	putchar('\n');
